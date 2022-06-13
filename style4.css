@@ -1,0 +1,116 @@
+body {
+    background: #E5E5E5;
+}
+
+.container{
+	width: 360px;
+	height: 1135px;
+	background-color: white;
+    margin: 0 auto;
+}
+
+.top_items{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+}
+
+.top_clock{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    margin-left: 15px;
+
+}
+
+.top_display{
+	background: url(Img/wi-fi.svg) no-repeat;
+    width: 90px;
+    background-size: 100%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+/*************** top_items end *******************/
+
+/*************** center_items start **************/
+
+.photo{
+	display: flex;
+}
+.photo_left{
+	background: url(Img/krestik.svg)no-repeat;
+	width: 19px;
+	height: 16px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.photo_text{
+	font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 12px;
+}
+
+
+.center_items{
+	height: 300px;
+}
+
+.room{
+	font-family:'Sora', sans-serif;
+	padding-left: 20px;
+}
+.room2{
+	font-family:'Sora', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	width: 332px;
+	height: 16px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+
+}
+
+.room3{
+	font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+
+
+.room4{
+	font-family:'Sora', sans-serif;
+	font-size: 14px;
+	width: 300px;
+	height: 40px;
+	border-radius: 6px;
+	opacity: 0.3;
+	margin-left: 20px;
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+.menu__bot{
+	width: 316px;
+	height: 37px;
+	background-color: #232529;
+	color: #fff;
+	font-family:'Sora', sans-serif;
+	font-size: 16px;
+	margin-left: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.menu__bot:hover{
+    box-shadow: 0 5px 10px rgb(238 58 90 / 50%);
+}

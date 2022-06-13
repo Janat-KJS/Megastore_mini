@@ -1,0 +1,100 @@
+body {
+    background: #E5E5E5;
+}
+
+.container{
+	width: 360px;
+	height: 730px;
+	background-color: white;
+    margin: 0 auto;
+}
+
+.top_items{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+}
+
+.top_clock{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 18px;
+    margin-left: 15px;
+
+}
+
+.top_display{
+	background: url(Img/wi-fi.svg) no-repeat;
+    width: 90px;
+    background-size: 100%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+/*************** top_items end *******************/
+
+/*************** center_items start **************/
+
+.center_items{
+	display: flex;
+	flex-direction: column-reverse;
+	height: 300px;
+}
+
+h3 {
+	font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    margin-left: 16px;
+}
+
+.center{
+	margin-left: 16px;
+}
+
+.center_div{
+	width: 337px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+.menu__b{
+	width: 337px;
+	height: 37px;
+	text-align: left;
+	font-family:'Sora', sans-serif;
+	border-radius: 4px;
+	margin: 0 8px;
+	background-color: #fff;
+	opacity: 0.5;
+}
+
+
+.menu__bot{
+	width: 337px;
+	height: 37px;
+	background-color: #232529;
+	color: #fff;
+	font-family:'Sora', sans-serif;
+	font-size: 16px;
+	margin-left: 10px;
+	margin-top: 15px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+.menu__bot:hover{
+    box-shadow: 0 5px 10px rgb(238 58 90 / 50%);
+    /*transform: scale(1.05);*/
+}
+
+.keyboard{
+	background: url(Img/light.svg)no-repeat;
+	width: 359px;
+	height: 205px;
+	margin-top: 46px;
+}
+
